@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  outline: none;
 }
 body {
   display: grid;
@@ -24,7 +25,7 @@ body {
   justify-content: space-between;
   grid-area: hd;
   border-radius: 5px;
-  background-color: gray;
+  background-color: rgb(178, 34, 34, 0.7);
 }
 
 .logo {
@@ -54,6 +55,21 @@ body {
 
 .search-input:focus {
   outline: none;
+}
+
+.search-btn {
+  padding: 7px 30px 10px 30px;
+  font: 600 16px "segoe ui";
+  color: rgb(48, 1, 1, 0.9);
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+.search-btn:hover {
+  background-color: firebrick;
+  color: white;
+  font-weight: 900;
+  margin-left: 5px;
 }
 .navbar-container {
   border: solid saddlebrown 2px;
