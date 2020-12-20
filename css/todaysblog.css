@@ -1,22 +1,22 @@
 .todays-blog-container {
-  width: 50%;
+  width: 65%;
   padding: 10px 50px;
   display: flex;
   flex-direction: column;
-  text-align: justify;
+  justify-content: space-evenly;
 }
 .todays-imgs-container {
-  width: 50%;
+  width: 35%;
   padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .img-meal-card {
   width: 200px;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 5px;
   text-align: center;
 }
@@ -24,4 +24,14 @@
   width: 100%;
   border-radius: 50%;
   margin-bottom: 10px;
+}
+
+.todays-links {
+  text-decoration: none;
+  color: black;
+  font: italic 700 18px "segoe ui light";
+}
+
+.todays-links:hover {
+  color: firebrick;
 }
