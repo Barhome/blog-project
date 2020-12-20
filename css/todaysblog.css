@@ -1,3 +1,11 @@
+.intro-blog-container {
+  grid-area: mb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-color: rgba(99, 95, 95, 0.1);
+  padding: 50px 20px;
+}
 .todays-blog-container {
   width: 65%;
   padding: 10px 50px;

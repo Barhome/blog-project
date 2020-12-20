@@ -1,3 +1,10 @@
+.bio-container {
+  grid-area: bb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
 .blogger-img {
   width: 40%;
 }
