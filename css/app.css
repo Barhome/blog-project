@@ -49,7 +49,7 @@ body {
   grid-area: bb;
 }
 
-.itro-blog-container {
+.intro-blog-container {
   border: 2px solid blue;
   grid-area: mb;
 }
