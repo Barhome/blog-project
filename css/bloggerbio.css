@@ -1,0 +1,26 @@
+.blogger-img {
+  width: 40%;
+}
+.blogger-img img {
+  width: 100%;
+}
+
+.blogger-bio {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.blogger-bio h2,
+h4 {
+  color: firebrick;
+}
+.blogger-bio h4 {
+  padding: 5px 0px;
+}
+
+.blogger-bio a {
+  padding: 10px 0px;
+}
