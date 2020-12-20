@@ -1,0 +1,27 @@
+.todays-blog-container {
+  width: 50%;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.todays-imgs-container {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.img-meal-card {
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+}
+.img-meal-card img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
