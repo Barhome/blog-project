@@ -22,31 +22,36 @@ body {
     "sb mb mb mb mb mb mb"
     "bb bb bb bb bb bb bb"
     "ft ft ft ft ft ft ft";
-  grid-gap: 20px;
-  border: solid red 2px;
-  margin: 10px;
   justify-content: center;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   grid-area: hd;
-  border-radius: 5px;
+
   background-color: rgb(178, 34, 34, 0.8);
 }
 
 .navbar-container {
-  border: solid saddlebrown 2px;
   grid-area: nav;
-  background-color: rgb(178, 34, 34, 0.8);
+  background-color: rgb(58, 43, 43);
+  margin-bottom: 50px;
 }
 
 .aside-container {
   grid-area: sb;
 }
 
+.intro-blog-container {
+  grid-area: mb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-color: rgba(99, 95, 95, 0.1);
+  padding: 50px 20px;
+}
 .bio-container {
   grid-area: bb;
   display: flex;
@@ -55,19 +60,11 @@ body {
   padding: 50px;
 }
 
-.intro-blog-container {
-  grid-area: mb;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  background-color: rgba(226, 220, 220, 0.1);
-  padding: 50px 20px;
-}
 .footer-container {
   grid-area: ft;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0px 20px;
-  background-color: rgba(226, 220, 220, 0.1);
+  background-color: rgba(99, 95, 95, 0.1);
 }

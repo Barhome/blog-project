@@ -12,10 +12,9 @@
 .navbar-list li a {
   text-decoration: none;
   color: firebrick;
-  background-color: black;
   padding: 20px;
   font: 600 20px "segoe ui";
 }
 .navbar-list li a:hover {
-  background-color: white;
+  color: white;
 }
