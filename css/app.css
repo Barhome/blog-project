@@ -15,8 +15,8 @@ body {
   grid-template-areas:
     "hd hd hd hd hd hd hd"
     "nav nav nav nav nav nav nav"
-    "sb bb bb bb bb bb bb"
-    "mb mb mb mb mb mb mb"
+    "sb mb mb mb mb mb mb"
+    "bb bb bb bb bb bb bb"
     "ft ft ft ft ft ft ft";
   grid-gap: 20px;
   border: solid red 2px;
