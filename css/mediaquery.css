@@ -1,0 +1,39 @@
+@media (max-width: 1200px) {
+  .intro-blog-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 400px;
+    grid-template-areas:
+      "tbc"
+      "tic ";
+    justify-content: center;
+    background-color: white;
+  }
+  .todays-blog-container {
+    grid-area: tbc;
+    display: flex;
+  }
+  .todays-imgs-container {
+    grid-area: tic;
+  }
+}
+
+@media (max-width: 990px) {
+  .todays-blog-container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 720px) {
+  .section-grid {
+    display: grid;
+    grid-template-columns: 250 1fr 1fr;
+    grid-template-rows: 100px auto auto auto auto;
+    grid-template-areas:
+      "hd hd hd"
+      "nav nav nav"
+      "sb sb sb"
+      "mb mb mb"
+      "bb bb bb";
+  }
+}

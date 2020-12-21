@@ -1,23 +1,25 @@
 .intro-blog-container {
   grid-area: mb;
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
   background-color: rgba(99, 95, 95, 0.1);
-  padding: 50px 20px;
+  padding: 30px 20px;
+  border: red 2px solid;
 }
 .todays-blog-container {
-  width: 65%;
+  width: 600px;
   padding: 10px 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  border: yellow 2px solid;
 }
 .todays-imgs-container {
-  width: 35%;
+  width: 400px;
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  border: green 2px solid;
 }
 .img-meal-card {
   width: 200px;
