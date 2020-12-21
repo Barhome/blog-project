@@ -25,7 +25,8 @@
 }
 
 @media (max-width: 720px) {
-  .section-grid {
+  /* ToDo:need to work on it later it is not responding for now */
+  /* .section-grid {
     display: grid;
     grid-template-columns: 250 1fr 1fr;
     grid-template-rows: 100px auto auto auto auto;
@@ -35,5 +36,5 @@
       "sb sb sb"
       "mb mb mb"
       "bb bb bb";
-  }
+  } */
 }

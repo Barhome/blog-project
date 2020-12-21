@@ -7,7 +7,7 @@
   border: red 2px solid;
 }
 .todays-blog-container {
-  width: 600px;
+  width: 100%;
   padding: 10px 50px;
   display: flex;
   flex-direction: column;
