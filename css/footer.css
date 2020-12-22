@@ -7,6 +7,7 @@
   align-items: center;
   padding: 0px 20px;
   background-color: rgba(99, 95, 95, 0.1);
+  border: black 3px solid;
 }
 
 .footer-info-left {
@@ -20,8 +21,6 @@
 
 .logo-middle {
   grid-area: lm;
-  width: 100px;
-  height: 100px;
 }
 .footer-info-right {
   grid-area: ftr;

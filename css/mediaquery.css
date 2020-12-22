@@ -16,25 +16,137 @@
   .todays-imgs-container {
     grid-area: tic;
   }
-}
 
-@media (max-width: 990px) {
-  .todays-blog-container {
+  .blogger-bio {
     width: 400px;
   }
 }
 
-@media (max-width: 720px) {
-  /* ToDo:need to work on it later it is not responding for now */
-  /* .section-grid {
-    display: grid;
-    grid-template-columns: 250 1fr 1fr;
-    grid-template-rows: 100px auto auto auto auto;
+@media (max-width: 990px) {
+  .todays-blog-container {
+    width: 500px;
+  }
+  .blogger-bio {
+    width: 400px;
+  }
+
+  .footer-container {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     grid-template-areas:
-      "hd hd hd"
-      "nav nav nav"
-      "sb sb sb"
-      "mb mb mb"
-      "bb bb bb";
+      "ftl lm"
+      "ftr ftr";
+  }
+  .logo-middle {
+    position: absolute;
+    right: 0;
+  }
+
+  .header-container {
+    grid-template-columns: 500px auto;
+    grid-template-rows: 100px auto;
+    grid-template-areas:
+      "hlogo hlogo "
+      "bsearch bsubscribe ";
+  }
+
+  .blog-search {
+    justify-content: flex-start;
+  }
+
+  .blog-subscribe {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    grid-area: bsubscribe;
+  }
+  .blog-search {
+    width: 450px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* this media is not working on ".section-grid class"  I had to move it to "app.css" to make it work */
+  /* .section-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "hd" "nav" "sb" "mb" "bb";
   } */
+  .aside-container {
+    margin-top: 10px;
+  }
+  .recipie-img {
+    height: 300px;
+  }
+
+  .bio-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .blogger-img {
+    width: 400px;
+  }
+
+  .footer-container {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "ftl lm" 00
+      "ftr ftr";
+  }
+  .logo-middle {
+    position: absolute;
+    right: 0;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  .blog-subscribe {
+    margin: 20px 0px;
+  }
+}
+@media (max-width: 510px) {
+  .blog-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 290px;
+  }
+  .search-input {
+    width: 100%;
+  }
+  .search-btn {
+    margin-top: 0px;
+    margin-left: 0;
+  }
+  .search-btn:hover {
+    margin-left: 0;
+  }
+
+  .navbar-list li a {
+    font: 600 16px "segoe ui";
+    padding: 10px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .logo-middle {
+    position: static;
+  }
 }

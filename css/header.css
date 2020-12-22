@@ -1,25 +1,36 @@
 .header-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "hlogo bsearch "
+    "hlogo bsubscribe ";
   grid-area: hd;
 
   background-color: rgb(178, 34, 34, 0.8);
+  border: black 3px solid;
 }
 .logo {
   background-image: url("../images/logo.jpg");
   background-size: 100% 100%;
   width: 100px;
+  height: 100px;
+  grid-area: hlogo;
+  border: firebrick 2px solid;
+  border-radius: 50%;
+  margin: 5px;
   /* height: 100px; */
   /* border-top-left-radius: 5px;
   border-bottom-left-radius: 5px; */
 }
 
-.blog-search-subscribe {
+.blog-search {
+  grid-area: bsearch;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: flex-end;
   padding: 10px;
+  /* border: solid 3px green; */
 }
 
 .search-input {
@@ -41,22 +52,31 @@
   color: rgb(48, 1, 1, 0.9);
   border: none;
   border-radius: 5px;
+  margin-left: 5px;
   background-color: white;
 }
 .search-btn:hover {
   background-color: firebrick;
   color: white;
   font: italic 900 20px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .blog-subscribe {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  grid-area: bsubscribe;
+  /* border: solid 3px green; */
+}
+.blog-subscribe a {
   text-decoration: none;
   color: white;
   font: 900 20px "segoe ui";
+  margin-right: 10px;
 }
 
-.blog-subscribe:hover {
+.blog-subscribe a:hover {
   color: white;
   font-style: italic;
-  margin-right: 10px;
+  margin-right: 30px;
 }

@@ -12,17 +12,25 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  border: yellow 2px solid;
+
+  /* border: yellow 2px solid; */
+}
+.todays-blog-container .blog-title {
+  color: firebrick;
+  font-style: italic;
+}
+.todays-blog-intro {
+  padding-left: 20px;
 }
 .todays-imgs-container {
-  width: 400px;
+  width: 100%;
   padding: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   border: green 2px solid;
 }
 .img-meal-card {
-  width: 200px;
+  width: 150px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -44,4 +52,14 @@
 
 .todays-links:hover {
   color: firebrick;
+}
+
+.todays-blog-container h1,
+.todays-blog-container h2,
+.todays-blog-container h4 {
+  padding-bottom: 10px;
+}
+
+.blog-link {
+  padding-top: 10px;
 }

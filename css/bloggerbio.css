@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 50px;
+  border: yellow 3px solid;
 }
 .blogger-img {
   width: 40%;
