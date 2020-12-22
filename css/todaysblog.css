@@ -3,8 +3,8 @@
   display: flex;
   justify-content: flex-end;
   background-color: rgba(99, 95, 95, 0.1);
-  padding: 30px 20px;
-  border: red 2px solid;
+  padding: 10px;
+  /* border: red 2px solid; */
 }
 .todays-blog-container {
   width: 100%;
@@ -27,7 +27,7 @@
   padding: 10px;
   display: flex;
   justify-content: space-around;
-  border: green 2px solid;
+  /* border: green 2px solid; */
 }
 .img-meal-card {
   width: 150px;
