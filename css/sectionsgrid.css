@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "segoe ui light";
+}
+.section-blog-grid {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    "hd hd hd"
+    "nav nav nav"
+    "sb mb mb"
+    "bb bb bb";
+  justify-content: center;
+  padding: 0px 20px;
+}
+
+.section-blog-post {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "hd hd hd hd hd hd"
+    "nav nav nav nav nav nav"
+    "cl cl cm cm cr cr "
+    "art art art art art art";
+}
