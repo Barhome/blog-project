@@ -2,7 +2,7 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: "segoe ui light";
+  font-family: "segoe ui light", "Roboto", sans-serif, "Open Sans", sans-serif;
 }
 .section-blog-grid {
   display: grid;
