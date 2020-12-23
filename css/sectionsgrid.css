@@ -19,11 +19,11 @@
 
 .section-blog-post {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
     "hd hd hd hd hd hd"
     "nav nav nav nav nav nav"
-    "cl cl cm cm cr cr "
-    "art art art art art art";
+    "art art art art art art"
+    "cl cl cm cm cr cr";
 }

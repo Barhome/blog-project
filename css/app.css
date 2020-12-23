@@ -1,9 +1,10 @@
 @import "sectionsgrid.css";
+@import "cards.css";
+@import "blogpost.css";
 @import "header.css";
 @import "navbar.css";
 @import "sidebar.css";
 @import "todaysblog.css";
 @import "bloggerbio.css";
 @import "footer.css";
-@import "blogpost.css";
 @import "mediaquery.css";

@@ -1,0 +1,42 @@
+.card--1 {
+  grid-area: cl;
+}
+
+.card--2 {
+  grid-area: cm;
+}
+.card--3 {
+  grid-area: cr;
+}
+
+.card {
+  width: 200px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.card img,
+.card h3,
+.card p,
+.card a {
+  margin-bottom: 10px;
+}
+
+.card img {
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+  font: italic 700 18px "segoe ui light";
+}
+
+.card a:hover {
+  color: firebrick;
+}

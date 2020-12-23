@@ -21,7 +21,7 @@
 
 .logo-middle {
   grid-area: lm;
-  /* margin-left: 30px; */
+  margin-left: 100px;
 }
 .footer-info-right {
   grid-area: ftr;
