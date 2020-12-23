@@ -83,6 +83,19 @@
       "sb sb sb"
       "bb bb bb";
   }
+
+  .section-blog-post {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "hd hd hd hd hd hd"
+      "nav nav nav nav nav nav"
+      "art art art art art art"
+      "cl cl cl cm cm cm"
+      "cr cr cr cr cr cr";
+  }
+
   .aside-container {
     margin-top: 10px;
   }
@@ -159,5 +172,18 @@
   }
   .logo-middle {
     position: static;
+  }
+
+  .section-blog-post {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "hd hd hd hd hd hd"
+      "nav nav nav nav nav nav"
+      "art art art art art art"
+      "cl cl cl cl cl cl"
+      "cm cm cm cm cm cm"
+      "cr cr cr cr cr cr";
   }
 }
